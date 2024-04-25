@@ -1,0 +1,66 @@
+@import "main.css";
+
+ol#listaDeTarefas {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+li.boxTarefa {
+  background-color: rgba(240, 248, 255, 0.144);
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  font-size: 1.2rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+span.containerImg {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+.containerImg button {
+  width: 35px;
+  height: 35px;
+
+  background-color: #b4b4b4;
+  border-radius: 50%;
+
+  border: none;
+  outline: none;
+
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerImg img {
+  max-width: 18px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+:where(.buttonLixo, .buttonConcluir):hover img {
+  transform: scale(1.25);
+}
+
+@media (max-width: 425px) {
+  li.boxTarefa {
+    width: 100%;
+    max-width: 300px;
+
+    font-size: 1.1rem;
+
+    flex-direction: column;
+    align-self: center;
+  }
+  .boxTarefa button.buttonLixo {
+    align-self: center;
+  }
+  span#boxImg {
+    column-gap: 2rem;
+  }
+}
