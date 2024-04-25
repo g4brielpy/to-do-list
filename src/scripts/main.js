@@ -33,11 +33,13 @@ const criarElemento = (elemento) => {
 };
 
 const validarTarefa = (novaTarefa) => {
-  if (!novaTarefa) {
+  if (!novaTarefa.nome) {
+    alert("Tarefa Inválida!");
     return false;
   }
   for (const tarefa of listaTarefas) {
-    if (tarefa == novaTarefa) {
+    if (tarefa.nome == novaTarefa.nome) {
+      alert("Essa Tarefa Já Existe!");
       return false;
     }
   }
@@ -49,9 +51,7 @@ const adicionarTarefa = () => {
     nome: inputAddTarefa.value.trim(),
     status: false,
   };
-  validarTarefa(tarefaAtual)
-    ? listaTarefas.push(tarefaAtual)
-    : alert("Tarefa Inválida");
+  validarTarefa(tarefaAtual) && listaTarefas.push(tarefaAtual);
 };
 
 const excluirTarefa = (id) => {
