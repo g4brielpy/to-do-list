@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import "reset.css";
+@import "titulo.css";
+@import "tarefa.css";
+@import "body.css";
+
+:root {
+  --white: #fff;
+  --black_1: #373739;
+  --black_2: #19191a;
+  --black_3: #020202;
+  --destaque: #60d4ea;
+  --sub_destaque: #9ae5f3;
+
+  --font_titulo: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --font_padrao: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
