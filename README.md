@@ -1,6 +1,6 @@
 # 📝 Projeto To-Do List - Aplicação de Tarefas - HTML, CSS & JavaScript 📝
 
-Tenho o prazer de compartilhar meu mais recente projeto, uma aplicação de lista de tarefas ("To-Do List"). Esta aplicação foi desenvolvida usando apenas HTML, CSS e JavaScript puro, como parte do meu aprendizado contínuo no curso da DevMedia.
+Tenho o prazer de compartilhar meu mais recente projeto, uma aplicação de lista de tarefas ("To-Do List"). Esta aplicação foi desenvolvida usando apenas HTML, CSS e JavaScript puro, como parte do meu aprendizado contínuo no Desenvolvimento Web.
 
 ### [🔗 Acesse a aplicação online](https://g4brielpy.github.io/to-do-list/)
 
