@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lista de Tarefas" />
+    <link rel="stylesheet" href="src/styles/main.css" />
+    <link
+      rel="shortcut icon"
+      href="src/image/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Tarefas</title>
+  </head>
+
+  <body>
+    <h1 id="titulo">Lista de Tarefas</h1>
+    <main id="corpo">
+      <section id="sectionAddTarefas">
+        <input
+          type="text"
+          id="inputAddTarefa"
+          name="novaTarefa"
+          placeholder="Adicione uma nova tarefa"
+          maxlength="30"
+          lang="PT-BR"
+        />
+        <button type="submit" id="buttonAdd" title="Adicionar Tarefa">
+          <img src="src/image/adicionar.png" alt="+" />
+        </button>
+      </section>
+
+      <!-- seção dinâmica: add tarefas aqui -->
+      <ol id="listaDeTarefas"></ol>
+    </main>
+
+    <!-- script para fazer a adição de tarefas -->
+    <script src="src/scripts/main.js"></script>
+  </body>
+</html>
+
+<!-- by: Gabriel Iuri - g4brielpy -->
