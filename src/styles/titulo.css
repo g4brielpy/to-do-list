@@ -1,0 +1,16 @@
+@import "main.css";
+
+h1#titulo {
+  width: 100%;
+  max-width: 300px;
+
+  margin: auto;
+  padding: 1rem;
+
+  color: var(--black_1);
+  font-family: var(--font_titulo);
+  font-size: 2rem;
+  text-align: center;
+
+  border-bottom: 2px solid var(--black_1);
+}
